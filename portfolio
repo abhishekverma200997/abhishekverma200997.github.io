@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek Verma | Product Manager Portfolio</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Product Manager portfolio of Abhishek Verma. Experience in AI-driven products, GTM strategy, analytics, and data-backed decision making." />
+  <meta name="author" content="Abhishek Verma" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --card: #f9fafb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 32px 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    nav a {
+      margin-left: 24px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      margin-bottom: 80px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-right: 12px;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .secondary {
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    section h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    section p {
+      color: var(--muted);
+      max-width: 800px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+
+    .tags span {
+      display: inline-block;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #e0e7ff;
+      color: #1e3a8a;
+      margin-right: 6px;
+      margin-top: 6px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .skills ul {
+      list-style: none;
+    }
+
+    .skills li {
+      padding: 6px 0;
+      font-size: 15px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <strong>Abhishek Verma</strong>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Product Manager</h1>
+      <p>
+        Product Management professional with experience across platform and consumer-facing products.
+        I enjoy solving ambiguous problems, aligning cross-functional teams, and using data and AI
+        to drive meaningful outcomes.
+      </p>
+      <div class="cta">
+        <a href="#projects" class="primary">View Projects</a>
+        <a href="#contact" class="secondary">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an aspiring Product Manager with hands-on experience in AI-driven features, go-to-market
+        strategy, analytics, and automation. I focus on structuring ambiguity, defining success metrics,
+        and shipping solutions that create measurable business impact.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Visa Offering Launch</h3>
+          <p>
+            Led GTM analysis and customer journey mapping to launch visa services as a new offering,
+            identifying target segments and defining success metrics.
+          </p>
+          <div class="tags">
+            <span>GTM Strategy</span>
+            <span>Customer Journey</span>
+            <span>KPIs</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>AI-Driven Package Theme Generator</h3>
+          <p>
+            Designed and launched an AI system to analyze package components and auto-assign themes,
+            improving tagging accuracy and discoverability.
+          </p>
+          <div class="tags">
+            <span>GenAI</span>
+            <span>Automation</span>
+            <span>Product Design</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>AI-Generated Vacation Packages</h3>
+          <p>
+            Built an AI-powered flow to generate personalized travel packages, improving relevance
+            and reducing manual effort for sales teams.
+          </p>
+          <div class="tags">
+            <span>AI</span>
+            <span>User Experience</span>
+            <span>Personalization</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Data-Driven Sales Scoring Model</h3>
+          <p>
+            Developed a scoring model to classify inquiries based on device, origin, and destination,
+            enabling smarter lead prioritization.
+          </p>
+          <div class="tags">
+            <span>Analytics</span>
+            <span>SQL</span>
+            <span>Decision Systems</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+
+      <div class="skills">
+        <div>
+          <h3>Product</h3>
+          <ul>
+            <li>Product Strategy</li>
+            <li>Roadmapping</li>
+            <li>GTM Execution</li>
+            <li>Stakeholder Alignment</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Analytics</h3>
+          <ul>
+            <li>SQL</li>
+            <li>A/B Testing</li>
+            <li>Metrics Definition</li>
+            <li>Dashboards</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>AI & Tech</h3>
+          <ul>
+            <li>GenAI Concepts</li>
+            <li>Prompt Engineering</li>
+            <li>Automation</li>
+            <li>System Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <p>
+        IBM AI Product Management • IBM Prompt Engineering • HackerRank SQL • HubSpot Inbound Marketing
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Interested in product opportunities or conversations.
+      </p>
+      <p>
+        Email: <a href="mailto:abhishekverma@email.com">abhishekverma@email.com</a><br/>
+        LinkedIn: <a href="#">linkedin.com/in/abhishekverma</a>
+      </p>
+    </section>
+
+    <footer>
+      © 2025 Abhishek Verma
+    </footer>
+
+  </div>
+</body>
+</html>
